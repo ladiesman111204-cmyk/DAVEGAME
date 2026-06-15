@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAVEGAMES</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <nav>
+        <h1>DAVEGAMES</h1>
+        <input id="search" type="text" placeholder="search Games ..">
+
+    </nav>
+    <header class="hero">
+    <h2>play premium HTml5 games</h2>
+    <p>instant play, no dowloads, powered by Games monitize feed</p>
+    </header>
+    <section class="categories">
+    <button onclick="filtercategory('All')">ALL</button>
+    <button onclick="filtercategory('Racing')">Racing</button>
+    <button onclick="filtercategory('arcade')">arcade</button>
+    <button onclick="filtercategory('puzzles')">puzzles</button>
+    <button onclick="filtercategory('shooting')">shooting</button>
+    <button onclick="filtercategory('soccer')">soccer</button>
+    </section>
+    <main id="gamecontainer" class="grid"></main>
+    <script src="js/app.js"></script>
+</body>
+</html>
