@@ -92,15 +92,19 @@ nav input{
  }
 
  .play-container{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    background: black;
  }
 
  iframe{
     width: 95%;
     height: 85vh;
     border: none;
-    border-radius: 10px;
-
+    background: black;
+    display: block;
  }
