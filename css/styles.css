@@ -102,8 +102,8 @@ nav input{
  }
 
  iframe{
-    width: 95%;
-    height: 85vh;
+    width: 100%;
+    height: 100%;
     border: none;
     background: black;
     display: block;
